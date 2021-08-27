@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 4rem;
+    padding: 3rem;
+}
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+h3{
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+button{
+    margin-top: 3rem;
+    padding: 2rem;
+    font-size: 1.7rem;
+    border: 0.2rem solid gray;
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.wrapper{
+    width: 850px;
+    text-align: center;
+}
+
+.header{
+    width: 100vw;
+    height: 70vh;
+    color: white;
+    background: #333 url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    text-align: center;
+}
+.header .wrapper {
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.content{
+    padding: 4rem;
+    background-color: rgb(240, 236, 236);
+}
+.content-area .wrapper p{
+    padding-bottom: 2rem;
+    column-gap: 4rem;
+    column-count: 2;
+    text-align: center;
+}
+.content-area .wrapper h1{
+    font-size: 3.5rem;
+}
+.main {
+    justify-content: center;
+    background-color: #333;
+    display: flex;
+    padding: 1rem;
+    height: 55vh;
+    width: 100vw;
+}
+.web-dev,
+.mobile-app,
+.tech-mark{
+    background-color: white;
+    margin: 1rem;
+    width: 25rem;
+    height: 43rem;
+}
+.main img{
+    width: 100%;
+}
+.main .manjan{
+    text-align: center;
+    justify-content: center;
+}
+.section-4{
+    padding: 4rem;
+}
+.section-5{
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: repeat(2,1fr);
+    color: white;
+
+}
+.box1{
+    background-color: #2690d4;
+}
+.box1 .p1{
+    margin: 2rem;
+}
+.box1,
+.box2 p{
+    padding: 1.5rem;
+    text-align: center;
+
+}
+.box2{
+    background-color: #333;
+    padding: 2rem;
+
+}
+.footer{
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 4rem;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+span{
+    color: cornflowerblue;
+}
