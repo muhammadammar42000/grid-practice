@@ -146,3 +146,79 @@ button:hover{
 span{
     color: cornflowerblue;
 }
+
+
+@media only screen and (max-width:800px) {
+    
+    *{
+        margin: 0;
+        border: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+    }
+    .wrapper{
+        width: 700px;
+        text-align: center;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+
+    h1{
+        font-size: 3rem;
+        padding: 2rem;
+    }
+    
+    h2{
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+    h3{
+        font-size: 1rem;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    p{
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+    .main {
+        justify-content: center;
+        background-color: #333;
+        display: flex;
+        padding: 1rem;
+        height: 40vh;
+        width: 98%;
+    }
+    .web-dev,
+    .mobile-app,
+    .tech-mark{
+    background-color: white;
+    margin: 5px;
+    width: 20rem;
+    height: 30rem;
+}
+
+    
+}
+@media only screen and (max-width:450px){
+    .wrapper{
+        width: 400px;
+        text-align: center;
+        overflow: auto;
+        overflow-x: hidden;
+    }
+    h1{
+        font-size: 2rem;
+        padding: 2rem;
+    }
+    p{
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+    .box1{
+        width: 200px;
+    }
+}
